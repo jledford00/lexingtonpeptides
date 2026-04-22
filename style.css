@@ -156,7 +156,15 @@ body {
   .content h2 {
     font-size: 1.8rem;
   }
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+.content {
+  flex: 1;
+}
+  
   .product-grid {
     grid-template-columns: 1fr 1fr;
     gap: 35px 15px;
