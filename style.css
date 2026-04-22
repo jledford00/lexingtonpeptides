@@ -92,13 +92,13 @@ body {
 }
 
 .product-card img {
-  width: 200px;
-  height: 260px;
+  width: 220px;
+  height: 280px;
   object-fit: contain;
-  background: white;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  background: transparent;
+  padding: 0px;
+  border-radius: 0px;
+  box-shadow: none:
 }
 
 .product-card p {
