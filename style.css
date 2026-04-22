@@ -5,10 +5,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #eeeeee;
-  color: #0d2240;
-}
+  font-family: 'Nunito', sans-serif;
 .logo-header {
   text-align: center;
   padding: 20px;
@@ -79,9 +76,8 @@ body {
 .content h2 {
   color: #11a9dd;
   font-size: 3rem;
-  font-weight: 500;
-  margin-bottom: 60px;
-  text-shadow: 0 2px 0 rgba(0,0,0,0.08);
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
 }
 
 .product-grid {
