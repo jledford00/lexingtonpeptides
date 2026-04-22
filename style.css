@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eeeeee;
+  color: #0d2240;
+}
+
+.hero {
+  width: 100%;
+}
+
+.top-band {
+  background: #ff2f86;
+  text-align: center;
+  padding: 38px 20px 18px;
+}
+
+.top-band h1 {
+  color: #f8eddc;
+  font-size: 4.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-shadow: 0 3px 0 rgba(0,0,0,0.15);
+}
+
+.middle-band {
+  background: #11b5e4;
+  text-align: center;
+  padding: 12px 20px 22px;
+}
+
+.pill-logo {
+  display: inline-block;
+  background: #11b5e4;
+  border: 12px solid #f8eddc;
+  border-radius: 999px;
+  color: #f8eddc;
+  font-size: 3.4rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 8px 36px;
+  text-shadow: 0 3px 0 rgba(0,0,0,0.15);
+}
+
+.flask-wrap {
+  margin-top: 12px;
+}
+
+.flask-icon {
+  width: 110px;
+  max-width: 100%;
+}
+
+.content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 20px 50px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #11a9dd;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 60px;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.08);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 30px;
+  justify-items: center;
+}
+
+.product-card {
+  text-align: center;
+}
+
+.product-card img {
+  width: 140px;
+  height: 180px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+.product-card p {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: #0d2240;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px 20px 60px;
+}
+
+.footer a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin: 0 25px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .top-band h1 {
+    font-size: 3.2rem;
+  }
+
+  .pill-logo {
+    font-size: 2.5rem;
+    padding: 8px 28px;
+    border-width: 9px;
+  }
+
+  .content h2 {
+    font-size: 2.2rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .top-band h1 {
+    font-size: 2.5rem;
+  }
+
+  .pill-logo {
+    font-size: 1.9rem;
+    padding: 8px 18px;
+  }
+
+  .content h2 {
+    font-size: 1.8rem;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 15px;
+  }
+
+  .product-card img {
+    width: 110px;
+    height: 145px;
+  }
+
+  .product-card p {
+    font-size: 1.05rem;
+  }
+}
