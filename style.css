@@ -96,8 +96,8 @@ body {
 }
 
 .product-card img {
-  width: 140px;
-  height: 180px;
+  width: 220px;
+  height: 280px;
   object-fit: contain;
   display: block;
   margin: 0 auto 16px;
