@@ -94,7 +94,7 @@ body {
 .product-card img {
   width: 260px;
   height: 320px;
-  object-fit: contain;
+  object-fit: cover;
   background: transparent;
   padding: 0px;
   border-radius: 0px;
