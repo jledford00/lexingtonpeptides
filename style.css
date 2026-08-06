@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  }
 .logo-header {
   text-align: center;
   padding: 20px;
@@ -145,7 +146,7 @@ body {
   }
 }
 
-@media (max-width: px 520px) {
+@media (max-width: 520px) {
   .top-band h1 {
     font-size: 2.5rem;
   }
