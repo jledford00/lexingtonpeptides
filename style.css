@@ -83,6 +83,24 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.order-info {
+    text-align: center;
+    margin: 15px 0 35px;
+}
+
+.order-info p {
+    color: #f8eddc;
+    font-size: 1.3rem;
+    margin: 0 0 5px;
+}
+
+.order-info a {
+    color: #ff2f86;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
