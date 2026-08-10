@@ -110,10 +110,10 @@ body {
   color: #f8eddc;
 }
 
-.product-card . price {
+.product-card p. price {
   font-size: 1.3rem;
   line-height: 1.2;
-  color: #ff2f86
+  color: #ff2f86 !important;
   font-weight:700;
 }
 
