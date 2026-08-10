@@ -6,12 +6,13 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  background-color: #000000;
   }
 .logo-header {
   text-align: center;
   padding: 20px;
   background-color: #000000;
-  background: #ffffff;
+  background: #000000;
 }
 
 .main-logo {
@@ -112,7 +113,7 @@ body {
 .footer {
   text-align: center;
   padding: 20px;
-  background: #ffffff;
+  background: #000000;
 }
 
 .footer a {
