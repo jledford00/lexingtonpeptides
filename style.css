@@ -107,7 +107,14 @@ body {
 .product-card p {
   font-size: 1.3rem;
   line-height: 1.2;
-  color: #0d2240;
+  color: #f8eddc;
+}
+
+.product-card . price {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  color: #ff2f86
+  font-weight:700;
 }
 
 .footer {
